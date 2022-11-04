@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div id="form">
+    <form name="formulario" method="get" action="alta.php" id="formulario">
+        Nombre:  <input type="text" name="Nombre" required/> <br> <br>
+        Apellidos:<input type="text" name="Apellido" required/> <br> <br>
+        Edad: <input type="number" min="18" max="99" name="Edad" id="Edad" required/> <br> <br>
+        DNI:     <input type="text" name="DNI" id="DNI" required/> <br> <br>
+        Correo:     <input type="text" name="Correo" required/> <br> <br>
+        P&aacute;gina web: <input type="text" name="page" required/><br><br>
+        <input id="enviar" type="submit" value="Enviar datos"/>
+    </form>
+</div>
+    <br>
+    <br>
+    <label>Sugerencia</label><br>
+    <textarea rows="6" cols="40" name="feedback" form="formulario"></textarea>
+    <script src="./validar.js"></script>
+</body>
+</html>

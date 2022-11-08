@@ -1,6 +1,6 @@
 <?php
 $numero=$_GET['numero'];
-for ($i = 1; $i <= $numero; $i++){
-    echo $i.$i++."<br>";
+for($i=0;$i<$numero;$i++){
+    echo $i."<br>";
 }
 ?>
